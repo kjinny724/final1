@@ -1,0 +1,127 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+*{
+    font-family: "Noto Serif KR", serif;;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+body {
+  background-color: black;
+}
+
+/* setting */
+#abs {
+    transition: height 1s ease-out;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+#test {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  #test1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+  }
+  
+  #test2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #test3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #test4 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test5 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test6 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test7 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test8 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test9 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  #test10 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test11 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test12 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test13 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #test14 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #test15 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #test16 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
