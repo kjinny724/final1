@@ -1,31 +1,146 @@
 <!DOCTYPE html>
+<html lang="ko"></html>
 <html>
     <head>
-        <title>여러 의미</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>미사강변 센트럴 풍경채_주변시설</title>
+    <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <div id="abs">
-        <ul>
-            <div class="item-abs" id="test1">괜찮습니다</li></div>
-            <div class="item-abs" id="test2">괜찮아 난 할 수있어 어려운 것도 아니잖아</li></div>
-            <div class="item-abs" id="test3">괜찮긴한데, 이건 어때?</li></div>
-            <div class="item-abs" id="test4">속이려 하지 않음</li></div>
-            <div class="item-abs" id="test5">괜찮아요.</li></div>
-            <div class="item-abs" id="test6">헛웃음</li></div>
-            <div class="item-abs" id="test7">음 생각해볼께</li></div>
-            <div class="item-abs" id="test8">아 진짜?ㅋㅋ</li></div>
-            <div class="item-abs" id="test9">괜찮아요 긍정적이게</li></div>
-            <div class="item-abs" id="test10">괜찮아</li></div>
-            <div class="item-abs" id="test11">죄송합니다.</li></div>
-            <div class="item-abs" id="test12">어서오세요</li></div>
-            <div class="item-abs" id="test13">어떡해 괜찮으세요..?</li></div>
-            <div class="item-abs" id="test14">와 좋아요</li></div>
-            <div class="item-abs" id="test15">그럴 수도 있겠다</li></div>
-            <div class="item-abs" id="test16">이미 어른이니까</li></div>
-        </ul>
+
+         <!-- 네비게이션 -->
+    <nav class="navbar navbar-expand-md bg-white navbar-dark fixed-top">
+      <div class="container">
+          <a class="gugi-font navbar-brand" href="main.html">
+              <img src="jpg/logo.png" alt="logo" width="80" height="auto">
+          </a>
+          <div class="collapse navbar-collapse ms-auto" id="nav-menu">
+              <ul class="nav nav-pills">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="home.html" style="color: black">홈</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="floor1.html" role="button" aria-expanded="false" style="color: black">소개</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="nav-link dropdown-item" href="floor1.html" style="color: black">1층</a></li>
+                          <li><a class="nav-link dropdown-item" href="floor1.html" style="color: black">지하 1층</a></li>
+                          <li><a class="nav-link dropdown-item" href="place.html" style="color: black">주변 시설</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#live" role="button" aria-expanded="false" style="color: black">주민들 일상</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="nav-link dropdown-item" href="talk.html" style="color: black">민원</a></li>
+                          <li><a class="nav-link dropdown-item" href="talk.html" style="color: black">담소</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="our.html" style="color: black">우리 동네</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+          <!-- 주변시설 -->
+    <section class="container overflow-hidden py-5" id="other">
+
+      <div class="text-center py-5">
+        <h1 class="fw-bold mb-3">주변 시설</h1>
+        <p class="lead text-muted">아파트 근처 주변 시설에 대해 알아보아요!</p>
     </div>
+
+      <div class="container">
+        <div class="row pb-5 gy-4">
+            <!-- 첫 번째 행 -->
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="jpg/gs25.jpg" alt="Gs 25" class="card-img-top" width="500" height="300">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">Gs 25</h3>
+                      <p class="card-text">간단한 장보기가 가능한 편의점입니다. 대형마트가 문을 닫거나 급한 재료가 있으면 가보세요!</p>
+                      <p class="card-text">운영 시간: 9:00 ~ 22:00</p>
+                      <p class="card-text">휴무: 매주 일요일</p>
+                      <a href="https://map.naver.com/p?c=15.00,0,0,0,dh" class="btn btn-warning btn-sm">위치 찾기</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="jpg/미용실.jpg" alt="1933hair" class="card-img-top" width="500" height="300">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">1933hair</h3>
+                      <p class="card-text">후문에 있는 미용실 입니다. 예약은 필수이니 꼭 확인하세요</p>
+                      <p class="card-text">운영 시간: 10:00 ~ 20:00</p>
+                      <a href="https://talk.naver.com/ct/w4tgga" class="btn btn-warning btn-sm"> 예약 하기</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="jpg/세븐일레븐.jpg" alt="세븐일레븐" class="card-img-top" width="500" height="300">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">세븐일레븐</h3>
+                      <p class="card-text">후문 근처 가장 가까운 편의점입니다.</p>
+                      <p class="card-text">운영 시간: 24시간</p>
+                      <a href="https://map.naver.com/p?c=15.00,0,0,0,dh" class="btn btn-warning btn-sm">위치 찾기</a>
+                  </div>
+                </div>
+            </div>
+            <!-- 두 번째 행 -->
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="jpg/아이스크림.jpg" alt="아이스크림 할인점" class="card-img-top"width="500" height="300">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">아이스크림 할인점</h3>
+                      <p class="card-text">동네에 하나밖에 없는 아이스크림 할인점 입니다.</p>
+                      <p class="card-text">결재를 꼭 해주세요. CCTV로 항상 보고 있습니다.</p>
+                      <p class="card-text">운영 시간: 24시간</p>
+                        <a href="https://map.naver.com/p?c=15.00,0,0,0,dh" class="btn btn-warning btn-sm">위치 찾기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="jpg/커피.jpg" alt="커피점" class="card-img-top"width="500" height="300">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">카페</h3>
+                      <p class="card-text">후문에 있는 카페 입니다.</p>
+                      <p class="card-text">여유로운 커피 한 잔 어떠세요?</p>
+                      <p class="card-text">운영 시간: 10:00 ~ 22:00</p>
+                      <a href="https://map.naver.com/p?c=15.00,0,0,0,dh" class="btn btn-warning btn-sm">위치 찾기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="jpg/코스트코.jpg" alt="코스트코" class="card-img-top"width="500" height="300">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">코스트코</h3>
+                      <p class="card-text">도보 10분거리의 대형마트 입니다.</p>
+                      <p class="card-text">운영 시간: 24시간</p>
+                      <p class="card-text">휴무: 2,4번째 일요일</p>
+                      <a href="https://map.naver.com/p?c=15.00,0,0,0,dh" class="btn btn-warning btn-sm">위치 찾기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  </section>
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous">
+    </script>
+
     </body>
-    <script src="./script.js"></script>
 </html>
